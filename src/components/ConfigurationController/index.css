@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.bg-nav {
+  background-color: #475569;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.nav-heading {
+}
+.controllers-card {
+  list-style: none;
+  padding: 0px;
+}
+.controller-item {
+}
+.checkbox {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}

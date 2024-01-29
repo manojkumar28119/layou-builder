@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.left-nav-menu {
+  background-color: #e2e8f0;
+  width: 30%;
+  padding: 20px;
+  height: 50vh;
+  flex-shrink: 0;
+}
+.body-card {
+  width: 80%;
+  color: #475569;
+  font-family: 'Roboto';
+  display: flex;
+  margin-top: 10px;
+}
+.body-headings {
+  font-size: 15px;
+  font-weight: 500;
+}
+.content-card {
+  background-color: #f1f5f9;
+  height: 50vh;
+  padding: 20px;
+}
+.items-list {
+  list-style: none;
+  padding: 0px;
+}
+.item {
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.Ad {
+  border: 2px solid #64748b;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.display-none {
+  display: none;
+}

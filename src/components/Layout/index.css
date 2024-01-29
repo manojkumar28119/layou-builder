@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.layout-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
