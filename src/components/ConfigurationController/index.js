@@ -27,36 +27,36 @@ const ConfigurationController = () => (
             <li className="controller-item">
               <input
                 type="checkbox"
-                id="controller"
+                id="controller1"
                 className="checkbox"
                 onChange={onToggleShowContent}
                 checked={showContent}
               />
-              <label htmlFor="controller" className="label">
+              <label htmlFor="controller1" className="label">
                 {controllers[0].label}
               </label>
             </li>
             <li className="controller-item">
               <input
                 type="checkbox"
-                id="controller"
+                id="controller2"
                 className="checkbox"
                 onChange={onToggleShowLeftNavbar}
                 checked={showLeftNavbar}
               />
-              <label htmlFor="controller" className="label">
+              <label htmlFor="controller2" className="label">
                 {controllers[1].label}
               </label>
             </li>
             <li className="controller-item">
               <input
                 type="checkbox"
-                id="controller"
+                id="controller3"
                 className="checkbox"
                 onChange={onToggleShowRightNavbar}
                 checked={showRightNavbar}
               />
-              <label htmlFor="controller" className="label">
+              <label htmlFor="controller3" className="label">
                 {controllers[2].label}
               </label>
             </li>
